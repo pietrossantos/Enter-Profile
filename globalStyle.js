@@ -6,11 +6,9 @@ export const GlobalStyle = createGlobalStyle`
       padding: 0;
       box-sizing: border-box;
       font-family: "Roboto";
+      color: #fff;
     }
 
-    body {
-      background: #000;
-    }
 
     ::-webkit-scrollbar {
         width: 10px;
