@@ -14,7 +14,7 @@ O Enter-Profile apresenta uma foto de perfil, identificação do autor, botões 
 - Efeitos visuais ao passar o cursor sobre os botões
 - Media query para ajustar a largura dos botões em telas menores
 
-> **Estado atual:** projeto de estudo em revisão. O botão **Meu Portfolio** ainda não possui link, e os imports dos ícones SVG precisam ser ajustados para corresponder às letras maiúsculas/minúsculas dos arquivos no repositório. O funcionamento completo ainda não foi validado por execução.
+> **Estado atual:** projeto de estudo em revisão. Os links, os imports dos ícones e alguns aspectos de acessibilidade foram corrigidos. O funcionamento completo ainda precisa ser validado por execução.
 
 ## Tecnologias
 
@@ -57,9 +57,9 @@ npm run preview
 
 ## Melhorias planejadas
 
-- Corrigir a capitalização dos imports SVG
-- Conectar o botão de portfólio ao site publicado
-- Adicionar `rel="noopener noreferrer"` aos links externos com `target="_blank"`
+- [x] Corrigir a capitalização dos imports SVG
+- [x] Conectar o botão de portfólio ao site publicado
+- [x] Adicionar `rel="noopener noreferrer"` aos links externos com `target="_blank"`
 - Revisar responsividade, acessibilidade e execução do build
 - Atualizar dependências após verificar compatibilidade
 
