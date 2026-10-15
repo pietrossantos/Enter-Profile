@@ -1,8 +1,68 @@
-# React + Vite
+# Enter-Profile | Página de links pessoais
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto pessoal desenvolvido por **Pietro Candido** para praticar criação de interfaces em **React**, estilização com **Styled-components** e organização de uma página de links para redes sociais.
 
-Currently, two official plugins are available:
+## Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O Enter-Profile apresenta uma foto de perfil, identificação do autor, botões de acesso a redes sociais e uma área com ícones de contato. A interface utiliza fundo ilustrado, efeitos de hover e uma adaptação básica para telas menores.
+
+## Funcionalidades presentes no código
+
+- Foto e identificação do perfil
+- Links para Instagram, LinkedIn e GitHub
+- Ícones de acesso a redes sociais e contato
+- Efeitos visuais ao passar o cursor sobre os botões
+- Media query para ajustar a largura dos botões em telas menores
+
+> **Estado atual:** projeto de estudo em revisão. O botão **Meu Portfolio** ainda não possui link, e os imports dos ícones SVG precisam ser ajustados para corresponder às letras maiúsculas/minúsculas dos arquivos no repositório. O funcionamento completo ainda não foi validado por execução.
+
+## Tecnologias
+
+- React 18
+- JavaScript
+- Styled-components
+- Vite 4
+- CSS e media queries
+
+## Executar localmente
+
+**Pré-requisitos:** Node.js e npm.
+
+```bash
+git clone https://github.com/pietrossantos/Enter-Profile.git
+cd Enter-Profile
+npm install
+npm run dev
+```
+
+Abra o endereço indicado pelo Vite no terminal.
+
+## Comandos disponíveis
+
+```bash
+npm run dev
+npm run build
+npm run lint
+npm run preview
+```
+
+## Estrutura principal
+
+- `main.jsx` — entrada da aplicação React
+- `src/Components/EnterProfile.jsx` — interface e links do perfil
+- `src/Components/style.js` — componentes estilizados
+- `src/assets/` — ícones SVG
+- `public/` — foto de perfil e imagens
+- `device.js` — pontos de quebra para estilos responsivos
+
+## Melhorias planejadas
+
+- Corrigir a capitalização dos imports SVG
+- Conectar o botão de portfólio ao site publicado
+- Adicionar `rel="noopener noreferrer"` aos links externos com `target="_blank"`
+- Revisar responsividade, acessibilidade e execução do build
+- Atualizar dependências após verificar compatibilidade
+
+## Autor
+
+**Pietro Candido** — [GitHub](https://github.com/pietrossantos) · [LinkedIn](https://www.linkedin.com/in/pietrocandidocs/) · [Portfólio](https://my-portifolio-drab.vercel.app/)
