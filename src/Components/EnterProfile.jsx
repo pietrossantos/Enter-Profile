@@ -1,7 +1,7 @@
-import Instagram from "../assets/instagram.svg";
-import LinkedIn from "../assets/linkedin.svg";
-import Whatsapp from "../assets/whatsapp.svg";
-import Youtube from "../assets/youtube.svg";
+import Instagram from "../assets/Instagram.svg";
+import LinkedIn from "../assets/LinkedIn.svg";
+import Whatsapp from "../assets/Whatsapp.svg";
+import Youtube from "../assets/YouTube.svg";
 import {
   BackgroundThemeDark,
   ImagePietro,
@@ -13,40 +13,42 @@ import {
 
 function EnterProfile() {
   return (
-    <>
-      <BackgroundThemeDark>
-        <PartMain>
-          <ImagePietro src="./PietroProfile.png" alt="Image of Pietro" />
-          <EmailProfile href="mailto: pietrosilva.0305@gmail.com">
-            @pietrocandido
-          </EmailProfile>
-          <a href="https://www.instagram.com/pisilva_devguitar/" target="_blank">
-            <Buttons>Instagram</Buttons>
+    <BackgroundThemeDark>
+      <PartMain>
+        <ImagePietro src="/PietroProfile.png" alt="Foto de perfil de Pietro Candido" />
+        <EmailProfile href="mailto:pietrosilva.0305@gmail.com">
+          @pietrocandido
+        </EmailProfile>
+
+        <Buttons href="https://www.instagram.com/pisilva_devguitar/" target="_blank" rel="noopener noreferrer">
+          Instagram
+        </Buttons>
+        <Buttons href="https://www.linkedin.com/in/pietrocandidocs/" target="_blank" rel="noopener noreferrer">
+          LinkedIn
+        </Buttons>
+        <Buttons href="https://github.com/pietrossantos" target="_blank" rel="noopener noreferrer">
+          GitHub
+        </Buttons>
+        <Buttons href="https://my-portifolio-drab.vercel.app/" target="_blank" rel="noopener noreferrer">
+          Meu Portfólio
+        </Buttons>
+
+        <Icons>
+          <a href="https://www.instagram.com/pisilva_devguitar/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <img src={Instagram} alt="" />
           </a>
-          <a href="https://www.linkedin.com/in/pietrocandidocs/" target="_blank">
-            <Buttons>LinkedIn </Buttons>
+          <a href="https://www.linkedin.com/in/pietrocandidocs/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <img src={LinkedIn} alt="" />
           </a>
-          <a href="https://github.com/pietrossantos" target="_blank">
-            <Buttons>GitHub</Buttons>
+          <a href="https://wa.me/21991909820" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+            <img src={Whatsapp} alt="" />
           </a>
-          <Buttons>Meu Portfolio</Buttons>
-          <Icons>
-            <a href="https://www.instagram.com/pisilva_devguitar/" target="_blank">
-              <img src={Instagram} alt="" />
-            </a>
-            <a href="https://www.linkedin.com/in/pietrocandidocs/" target="_blank">
-              <img src={LinkedIn} alt="" />
-            </a>
-            <a href="http://wa.me/21991909820" target="_blank">
-              <img src={Whatsapp} alt="" />
-            </a>
-            <a href="https://www.youtube.com/channel/UCItZsns3QAVtu7X0YBeLonA" target="_blank">
-              <img src={Youtube} alt="" />
-            </a>
-          </Icons>
-        </PartMain>
-      </BackgroundThemeDark>
-    </>
+          <a href="https://www.youtube.com/channel/UCItZsns3QAVtu7X0YBeLonA" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <img src={Youtube} alt="" />
+          </a>
+        </Icons>
+      </PartMain>
+    </BackgroundThemeDark>
   );
 }
 
