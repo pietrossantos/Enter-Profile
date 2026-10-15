@@ -16,11 +16,11 @@ function EnterProfile() {
     <BackgroundThemeDark>
       <PartMain>
         <ImagePietro src="/PietroProfile.png" alt="Foto de perfil de Pietro Candido" />
-        <EmailProfile href="mailto:pietrosilva.0305@gmail.com">
+        <EmailProfile href="mailto:pietro.candido.work@gmail.com">
           @pietrocandido
         </EmailProfile>
 
-        <Buttons href="https://www.instagram.com/c.s.pietro?vrfl=YXBydnJtMjFnODhr" target="_blank" rel="noopener noreferrer">
+        <Buttons href="https://www.instagram.com/c.s.pietro" target="_blank" rel="noopener noreferrer">
           Instagram
         </Buttons>
         <Buttons href="https://www.linkedin.com/in/pietrocandidocs/" target="_blank" rel="noopener noreferrer">
@@ -33,8 +33,8 @@ function EnterProfile() {
           Meu Portfólio
         </Buttons>
 
-        <Icons>
-          <a href="https://www.instagram.com/c.s.pietro?vrfl=YXBydnJtMjFnODhrstagram">
+        <Icons aria-label="Redes sociais e contato">
+          <a href="https://www.instagram.com/c.s.pietro" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
             <img src={Instagram} alt="" />
           </a>
           <a href="https://www.linkedin.com/in/pietrocandidocs/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
