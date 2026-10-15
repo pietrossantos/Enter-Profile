@@ -29,16 +29,21 @@ export const EmailProfile = styled.a`
   padding-bottom: 15px;
 `;
 
-export const Buttons = styled.button`
-  min-width: 350px;
+export const Buttons = styled.a`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 350px;
+  max-width: calc(100vw - 32px);
   height: 50px;
   background-color: #5d4e5c;
   opacity: 0.54;
   border-radius: 10px;
-  border: 3px;
+  border: 3px solid transparent;
 
   @media ${device.tablet} {
-    min-width: 280px;
+    width: 280px;
   }
   &:hover {
     background-image: url(./bg-desktop-light.jpg);
