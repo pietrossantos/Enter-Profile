@@ -20,7 +20,7 @@ function EnterProfile() {
           @pietrocandido
         </EmailProfile>
 
-        <Buttons href="https://www.instagram.com/pisilva_devguitar/" target="_blank" rel="noopener noreferrer">
+        <Buttons href="https://www.instagram.com/c.s.pietro?vrfl=YXBydnJtMjFnODhr" target="_blank" rel="noopener noreferrer">
           Instagram
         </Buttons>
         <Buttons href="https://www.linkedin.com/in/pietrocandidocs/" target="_blank" rel="noopener noreferrer">
@@ -34,7 +34,7 @@ function EnterProfile() {
         </Buttons>
 
         <Icons>
-          <a href="https://www.instagram.com/pisilva_devguitar/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <a href="https://www.instagram.com/c.s.pietro?vrfl=YXBydnJtMjFnODhrstagram">
             <img src={Instagram} alt="" />
           </a>
           <a href="https://www.linkedin.com/in/pietrocandidocs/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
