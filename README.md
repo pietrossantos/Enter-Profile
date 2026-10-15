@@ -14,14 +14,14 @@ O Enter-Profile apresenta uma foto de perfil, identificação do autor, botões 
 - Efeitos visuais ao passar o cursor sobre os botões
 - Media query para ajustar a largura dos botões em telas menores
 
-> **Estado atual:** projeto de estudo em revisão. Os links, os imports dos ícones e alguns aspectos de acessibilidade foram corrigidos. O funcionamento completo ainda precisa ser validado por execução.
+> **Estado atual:** projeto de estudo em revisão. Os links, os imports dos ícones, a responsividade e alguns aspectos de acessibilidade foram revisados. A versão atual ainda precisa ser validada visualmente e por build após a atualização do lockfile.
 
 ## Tecnologias
 
 - React 18
 - JavaScript
 - Styled-components
-- Vite 4
+- Vite 8
 - CSS e media queries
 
 ## Executar localmente
@@ -60,8 +60,10 @@ npm run preview
 - [x] Corrigir a capitalização dos imports SVG
 - [x] Conectar o botão de portfólio ao site publicado
 - [x] Adicionar `rel="noopener noreferrer"` aos links externos com `target="_blank"`
-- Revisar responsividade, acessibilidade e execução do build
-- Atualizar dependências após verificar compatibilidade
+- [x] Revisar estilos responsivos e navegação por teclado
+- [ ] Validar visualmente e executar build/lint após sincronizar as alterações
+- [x] Atualizar Vite e plugin React
+- [ ] Regenerar e publicar o package-lock.json após remover yarn
 
 ## Autor
 
